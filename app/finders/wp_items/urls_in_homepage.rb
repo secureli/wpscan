@@ -4,7 +4,7 @@ module WPScan
       # URLs In Homepage Module to use in plugins & themes finders
       module URLsInHomepage
         # @param [ String ] type plugins / themes
-        # @param [ Boolean ] uniq Wether or not to apply the #uniq on the results
+        # @param [ Boolean ] uniq Whether or not to apply the #uniq on the results
         #
         # @return [Array<String> ] The plugins/themes detected in the href, src attributes of the homepage
         def items_from_links(type, uniq = true)
