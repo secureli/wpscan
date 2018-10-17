@@ -38,7 +38,7 @@ module WPScan
 
       # @param [ Hash ] opts
       #
-      # @return [ Boolean ] Wether or not to enumerate the plugins
+      # @return [ Boolean ] Whether or not to enumerate the plugins
       def enum_plugins?(opts)
         opts[:plugins] || opts[:all_plugins] || opts[:vulnerable_plugins]
       end
