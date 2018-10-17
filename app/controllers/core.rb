@@ -12,7 +12,7 @@ module WPScan
                           choices: %w[apache iis nginx],
                           normalize: %i[downcase to_sym]),
             OptBoolean.new(['--force', 'Do not check if the target is running WordPress']),
-            OptBoolean.new(['--[no-]update', 'Wether or not to update the Database'],
+            OptBoolean.new(['--[no-]update', 'Whether or not to update the Database'],
                            required_unless: %i[url help version])
           ]
       end
